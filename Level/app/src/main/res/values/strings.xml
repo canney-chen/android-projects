@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">水平仪</string>
+    <string name="vertical">垂直</string>
+    <string name="horizontal">水平</string>
+</resources>

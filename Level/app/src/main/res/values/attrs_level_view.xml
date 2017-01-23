@@ -1,0 +1,13 @@
+<resources>
+    <declare-styleable name="LevelView">
+        <attr name="limitRadius" format="dimension" />
+        <attr name="limitColor" format="color"/>
+        <attr name="limitCircleWidth" format="dimension"/>
+        <attr name="bubbleRadius" format="dimension"/>
+        <attr name="bubbleRuleColor" format="color"/>
+        <attr name="bubbleRuleWidth" format="dimension"/>
+        <attr name="bubbleRuleRadius" format="dimension"/>
+        <attr name="bubbleColor" format="color" />
+        <attr name="horizontalColor" format="color"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:paddingBottom="20dp"
+    android:paddingTop="50dp">
+
+    <me.kaini.level.LevelView
+
+        android:id="@+id/gv_hv"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        app:bubbleColor="#e03524"
+        app:bubbleRadius="25dp"
+        app:bubbleRuleColor="#ffffff"
+        app:bubbleRuleRadius="27dp"
+        app:bubbleRuleWidth="1dp"
+        app:limitCircleWidth="6dp"
+        app:limitColor="#e03524"
+        app:limitRadius="119dp"
+        app:horizontalColor="#00ff00"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="30dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5">
+
+            <TextView
+                android:id="@+id/tvv_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal"
+                android:text="vert"
+                android:textColor="#fff"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/tvl_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvv_vertical"
+                android:layout_centerHorizontal="true"
+                android:text="@string/vertical"
+                android:gravity="center_horizontal"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_weight="0.5">
+
+            <TextView
+                android:id="@+id/tvv_horz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal"
+                android:text="horiz"
+                android:textColor="#fff"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/tvl_horz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvv_horz"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal"
+                android:text="@string/horizontal"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="20sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>
