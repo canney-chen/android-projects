@@ -6,7 +6,7 @@
     android:paddingBottom="20dp"
     android:paddingTop="50dp">
 
-    <me.kaini.level.LevelView
+    <cn.canney.level.LevelView
 
         android:id="@+id/gv_hv"
         android:layout_width="250dp"
